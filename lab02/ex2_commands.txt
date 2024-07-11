@@ -3,3 +3,15 @@
 # Lines starting with # are comments, feel free to add any to document your commands
 
 # Please add your commands below this line
+start
+next
+next 3
+step
+step
+print password
+finish
+next
+step
+next 2
+print length
+quit
