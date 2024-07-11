@@ -1,0 +1,20 @@
+1. intro to (C)GDB: commands.
+GDB with interface graphics. In course 15213's lab we're told to use gdb, but cgdb provides a more user-friendly interface.
+Commands:
+start: begin running and stop at line 1 in main
+step(s): execute the current line (enter function)
+next(n): execute the current line (not enter)
+finish(fin): executes the remainder of the current function and returns to the calling function
+print(p) [arg]
+quit(q)
+break(b) [line number or function name]
+conditional break: ex. break 3 if n==4
+run(r)
+continue(c)
+backtrace(bt) print one line per frame for frames in the stack
+
+Should be familiar with. I did it before, now just repeat until I remember it well. In lab 2 these commands are demonstrated via the example of pwd_check, far more easier than bomblab...
+
+2. valgrind -- segmentation fault.
+Get familiar with valgrind. At least capable of reading the error message.
+Exercise 6-8 are almost all on the topic of memory management.
