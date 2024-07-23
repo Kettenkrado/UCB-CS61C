@@ -1,0 +1,4 @@
+modules = ["c-clang14", "web", "python-3.12", "bash"]
+
+[nix]
+channel = "stable-24_05"
