@@ -6,7 +6,8 @@
 # The return value should be stored in a0
 f:
     # Your code here
-
+    mv t0, a0
+    slli a0, 2
     # This is how you return from a function. You'll learn more about this later.
     # This should be the last line in your program.
     jr ra
