@@ -1,5 +1,8 @@
 {pkgs}: {
   deps = [
+    pkgs.run
+    pkgs.wget
+    pkgs.vim
     pkgs.zulu11
 <<<<<<< HEAD
     pkgs.zulu
